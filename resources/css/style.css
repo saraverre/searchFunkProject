@@ -1,0 +1,23 @@
+:root {
+    /* --fucsia: #8e8e8e; */
+    --accent: #cbd900;
+   
+}
+
+.bg-cs-accent{
+    background-color: var(--accent);
+}
+
+#searchInputDiv{
+    bottom: -23px;
+}
+
+#autocomplete{
+    top: 230px;
+    max-height: 250px;
+}
+
+#autocomplete>ul>li:hover{
+    background-color: #e5fd48;
+    cursor: pointer;
+}
